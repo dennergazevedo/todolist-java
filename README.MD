@@ -9,9 +9,9 @@ Backend de um To-Do list apenas para estudo, fortalececimento e expansão dos co
 - [Console da Database](http://localhost:8080/h2-console/)
 
 ## Métodos
-
 ### user
- - create: `/user/`
-
+ - [POST] create: `/user/`
 ### task
-- create: `/task`
+- [GET] list: `/task/`
+- [POST] create: `/task/`
+- [PUT] update: `/task/{id}`
